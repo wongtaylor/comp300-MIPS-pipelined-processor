@@ -1,0 +1,442 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/taylorwong/comp300/projects/p07
+vadder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1543633779
+!i10b 1
+!s100 XZAL_zU[1jlWa;3;cRSa91
+IAkNI;T5gML:2@Ci@MzU`X3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+Z3 d/home/taylorwong/comp300/projects/p08
+Z4 w1543273106
+8/home/taylorwong/comp300/projects/p08/adder.sv
+F/home/taylorwong/comp300/projects/p08/adder.sv
+L0 6
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1543633779.000000
+!s107 /home/taylorwong/comp300/projects/p08/adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/adder.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 =E[;Sz=8VEhnH4fkE`]@l3
+I_C;N<N`kfIb`X??M7=8:[1
+R2
+!s105 alu_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/alu.sv
+F/home/taylorwong/comp300/projects/p08/alu.sv
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/alu.sv|
+!i113 1
+R7
+R8
+valudec
+R0
+R1
+!i10b 1
+!s100 >KoI?Ij:2TG:77d3^h;Wo1
+ICzWYT2S;EH_lKYJmJGlBf1
+R2
+!s105 aludec_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/aludec.sv
+F/home/taylorwong/comp300/projects/p08/aludec.sv
+Z9 L0 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/aludec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/aludec.sv|
+!i113 1
+R7
+R8
+vcore_controller
+R0
+R1
+!i10b 1
+!s100 IeC@]zB?KS?0OK9ElQN_E1
+I_EMjUcDQhRnbEh<acOzlj1
+R2
+!s105 core_controller_sv_unit
+S1
+R3
+w1543610229
+8/home/taylorwong/comp300/projects/p08/core_controller.sv
+F/home/taylorwong/comp300/projects/p08/core_controller.sv
+Z10 L0 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/core_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/core_controller.sv|
+!i113 1
+R7
+R8
+vcore_datapath
+R0
+R1
+!i10b 1
+!s100 _]Z[XYNi2lbW>W06nA@EJ3
+IHLmNG9TKX0[K:VMG_9i5f3
+R2
+!s105 core_datapath_sv_unit
+S1
+R3
+w1543633777
+8/home/taylorwong/comp300/projects/p08/core_datapath.sv
+F/home/taylorwong/comp300/projects/p08/core_datapath.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/core_datapath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/core_datapath.sv|
+!i113 1
+R7
+R8
+vdmem
+R0
+R1
+!i10b 1
+!s100 VV8kfPCk2o6NX3CY:b7@f3
+I7P?8Fz0gFke97A1c1Hf0o3
+R2
+!s105 dmem_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/dmem.sv
+F/home/taylorwong/comp300/projects/p08/dmem.sv
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/dmem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/dmem.sv|
+!i113 1
+R7
+R8
+vflopenr
+R0
+R1
+!i10b 1
+!s100 NWZ@ZN^WA[>QU55>;LZ@<3
+I=iINZYc90U9PY<A?eFlZ:3
+R2
+Z11 !s105 flip_flops_sv_unit
+S1
+R3
+R4
+Z12 8/home/taylorwong/comp300/projects/p08/flip_flops.sv
+Z13 F/home/taylorwong/comp300/projects/p08/flip_flops.sv
+L0 19
+R5
+r1
+!s85 0
+31
+R6
+Z14 !s107 /home/taylorwong/comp300/projects/p08/flip_flops.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/flip_flops.sv|
+!i113 1
+R7
+R8
+vflopr
+R0
+R1
+!i10b 1
+!s100 V0VWORNS;ohBFIOafFgU>2
+I:O1aQ^zJVKnmHk;mG5[Sh2
+R2
+R11
+S1
+R3
+R4
+R12
+R13
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R14
+R15
+!i113 1
+R7
+R8
+vimem
+R0
+R1
+!i10b 1
+!s100 JhSTa`RkaI8jzz4k>YTE^3
+I]Q9JcQEYA`2MBTaaXTQT;2
+R2
+!s105 imem_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/imem.sv
+F/home/taylorwong/comp300/projects/p08/imem.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/imem.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/imem.sv|
+!i113 1
+R7
+R8
+vmaindec
+R0
+R1
+!i10b 1
+!s100 <B0H2>HQ`5Z[=>hA^MM1@0
+Ik18;o1H>J[]JVWh49@ghU3
+R2
+!s105 maindec_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/maindec.sv
+F/home/taylorwong/comp300/projects/p08/maindec.sv
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/maindec.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/maindec.sv|
+!i113 1
+R7
+R8
+vmips_core
+R0
+R1
+!i10b 1
+!s100 31e1ID3hGbj><EAIjR?e91
+ID67lAGi^KkS[omgl;zd3G2
+R2
+!s105 mips_core_sv_unit
+S1
+R3
+w1543530514
+8/home/taylorwong/comp300/projects/p08/mips_core.sv
+F/home/taylorwong/comp300/projects/p08/mips_core.sv
+L0 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/mips_core.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/mips_core.sv|
+!i113 1
+R7
+R8
+vmux2
+R0
+Z16 !s110 1543633780
+!i10b 1
+!s100 iFb`A]Uz:gnnzQaWUS=Hg2
+I51goD;eRFN09A`aPZf3g82
+R2
+!s105 mux2_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/mux2.sv
+F/home/taylorwong/comp300/projects/p08/mux2.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/mux2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/mux2.sv|
+!i113 1
+R7
+R8
+vregfile
+R0
+R16
+!i10b 1
+!s100 2lkoLzP<ojh91:08BZ7Hf0
+IHV4Rz]Od185cOh1]gaKM=0
+R2
+!s105 regfile_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/regfile.sv
+F/home/taylorwong/comp300/projects/p08/regfile.sv
+L0 7
+R5
+r1
+!s85 0
+31
+Z17 !s108 1543633780.000000
+!s107 /home/taylorwong/comp300/projects/p08/regfile.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/regfile.sv|
+!i113 1
+R7
+R8
+vshiftleft2
+R0
+R16
+!i10b 1
+!s100 mL85e]7@m2laZASc@H=VM0
+IM^lT<M@7TF3O@:g<hll`D3
+R2
+!s105 shiftleft2_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/shiftleft2.sv
+F/home/taylorwong/comp300/projects/p08/shiftleft2.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R17
+!s107 /home/taylorwong/comp300/projects/p08/shiftleft2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/shiftleft2.sv|
+!i113 1
+R7
+R8
+vsignext
+R0
+R16
+!i10b 1
+!s100 Ee6KKZzS5PikDS2XO:N]]3
+I9FS=N?M15>^4YW^NglPkX1
+R2
+!s105 signext_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/signext.sv
+F/home/taylorwong/comp300/projects/p08/signext.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R17
+!s107 /home/taylorwong/comp300/projects/p08/signext.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/signext.sv|
+!i113 1
+R7
+R8
+vtestbench
+R0
+R1
+!i10b 1
+!s100 5COz@h=lj9gM;[_dI>RVW1
+Iin>3Y6RSiCCZVIfbCbzOa1
+R2
+!s105 mips_testbench_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/mips_testbench.sv
+F/home/taylorwong/comp300/projects/p08/mips_testbench.sv
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/taylorwong/comp300/projects/p08/mips_testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/mips_testbench.sv|
+!i113 1
+R7
+R8
+vtop
+R0
+R16
+!i10b 1
+!s100 TDWR8^UKIW9Km7mZSDAYI0
+IGJ86VQih6NIi8coYUi5[B0
+R2
+!s105 system_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/system.sv
+F/home/taylorwong/comp300/projects/p08/system.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R17
+!s107 /home/taylorwong/comp300/projects/p08/system.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/system.sv|
+!i113 1
+R7
+R8
+vzeroext
+R0
+R16
+!i10b 1
+!s100 <aCdegM;<1mMjCULFZ5Rz1
+I2QeB^];7BLg]Qml@RB2S_1
+R2
+!s105 zeroext_sv_unit
+S1
+R3
+R4
+8/home/taylorwong/comp300/projects/p08/zeroext.sv
+F/home/taylorwong/comp300/projects/p08/zeroext.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R17
+!s107 /home/taylorwong/comp300/projects/p08/zeroext.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/taylorwong/comp300/projects/p08/zeroext.sv|
+!i113 1
+R7
+R8
