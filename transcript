@@ -1,0 +1,2432 @@
+# Loading project p08_group2
+# reading /opt/quartus/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project project09_group2
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:14:58 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.hazard_unit
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): [TFMPC] - Missing connection for port 'rs_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): [TFMPC] - Missing connection for port 'rt_d'.
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Too few port connections. Expected 20, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_a_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_b_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_a_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_b_x'.
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(45): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(76): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(76): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(84): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(84): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(90): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(95): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(95): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(106): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(109): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(117): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:14:58 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 27
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:23:50 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.hazard_unit
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(27): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Too few port connections. Expected 20, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_a_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_b_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_a_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(62): [TFMPC] - Missing connection for port 'fwd_b_x'.
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(46): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:23:50 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 24
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:28:51 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.hazard_unit
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Too few port connections. Expected 20, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'fwd_a_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'fwd_b_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'fwd_a_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(63): [TFMPC] - Missing connection for port 'fwd_b_x'.
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:28:51 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 24
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv failed with 1 errors.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv failed with 1 errors.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv failed with 1 errors.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:55:27 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): [TFMPC] - Too few port connections. Expected 28, found 26.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(48): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:55:27 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 19
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv failed with 2 errors.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 2 errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:57:26 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_a_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): Port size (1) does not match connection size (2) for implicit .name connection port 'fwd_b_d'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:57:26 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 16
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:59:04 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (2) does not match connection size (1) for implicit .name connection port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(28): Port size (2) does not match connection size (1) for implicit .name connection port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_controller.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c File: /home/taylorwong/comp300/projects/p09/core_controller.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): Port size (2) does not match connection size (1) for implicit .name connection port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Error: (vsim-8378) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): Port size (2) does not match connection size (1) for implicit .name connection port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/core_datapath.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Error loading design
+# End time: 17:59:04 on Dec 07,2018, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 16
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 17:59:41 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(111): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_1 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(112): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_2 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+add wave sim:/testbench/dut/core/c/*
+run 500
+quit -sim
+# End time: 18:03:58 on Dec 07,2018, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 20
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:05:03 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(111): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_1 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(112): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_2 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+add wave  \
+sim:/testbench/dut/core/clk \
+sim:/testbench/dut/core/reset \
+sim:/testbench/dut/core/pc \
+sim:/testbench/dut/core/instr_f \
+sim:/testbench/dut/core/dmem_write \
+sim:/testbench/dut/core/alu_out \
+sim:/testbench/dut/core/dmem_write_data \
+sim:/testbench/dut/core/dmem_read_data \
+sim:/testbench/dut/core/mem_to_reg_w \
+sim:/testbench/dut/core/pc_src_d \
+sim:/testbench/dut/core/eq_d \
+sim:/testbench/dut/core/alu_src_x \
+sim:/testbench/dut/core/reg_dest_x \
+sim:/testbench/dut/core/reg_write_w \
+sim:/testbench/dut/core/jump_d \
+sim:/testbench/dut/core/alu_ctrl_x \
+sim:/testbench/dut/core/instr_d \
+sim:/testbench/dut/core/rs_x \
+sim:/testbench/dut/core/rt_x \
+sim:/testbench/dut/core/fwd_a_d \
+sim:/testbench/dut/core/fwd_b_d \
+sim:/testbench/dut/core/fwd_a_x \
+sim:/testbench/dut/core/fwd_b_x \
+sim:/testbench/dut/core/write_reg_x \
+sim:/testbench/dut/core/write_reg_m \
+sim:/testbench/dut/core/write_reg_w \
+sim:/testbench/dut/core/stall_f \
+sim:/testbench/dut/core/stall_d \
+sim:/testbench/dut/core/flush_x \
+sim:/testbench/dut/core/lw_fwd
+run 200
+restart -f
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(111): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_1 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(112): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_2 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+run 500
+quit -sim
+# End time: 18:12:30 on Dec 07,2018, Elapsed time: 0:07:27
+# Errors: 0, Warnings: 40
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:12:45 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_a_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [PCDPC] - Port size (2) does not match connection size (1) for port 'fwd_b_x'. The port definition is at: /home/taylorwong/comp300/projects/p09/hazard_unit.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(49): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(111): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_1 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(112): [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux3.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_x_mux_2 File: /home/taylorwong/comp300/projects/p09/mux3.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+quit -sim
+# End time: 18:16:25 on Dec 07,2018, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 20
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:16:34 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 26, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv failed with 1 errors.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+quit -sim
+# End time: 18:37:28 on Dec 07,2018, Elapsed time: 0:20:54
+# Errors: 0, Warnings: 16
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv failed with 1 errors.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:38:35 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 27, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd1'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(75): [PCDPC] - Port size (32) does not match connection size (1) for port 'rd2'. The port definition is at: /home/taylorwong/comp300/projects/p09/regfile.sv(12).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/rf File: /home/taylorwong/comp300/projects/p09/regfile.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(114): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(118): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+quit -sim
+# End time: 18:41:47 on Dec 07,2018, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 18
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:41:54 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 27, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(114): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(118): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+restart -f
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 27, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(83): [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/taylorwong/comp300/projects/p09/eq.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/equals File: /home/taylorwong/comp300/projects/p09/eq.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(114): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(118): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 27, found 23.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(89): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(93): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srca_reg_d_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(94): [PCDPC] - Port size (32) does not match connection size (1) for port 'q'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data__regd_x File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(105): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(108): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(114): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(118): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv failed with 1 errors.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 29, found 25.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_f'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'stall_d'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(90): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(107): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(110): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(120): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv failed with 2 errors.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 2 errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Too few port connections. Expected 29, found 27.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp File: /home/taylorwong/comp300/projects/p09/core_datapath.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'flush_x'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/mips_core.sv(50): [TFMPC] - Missing connection for port 'lw_fwd'.
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(90): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(107): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(110): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(120): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv failed with 4 errors.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 4 errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(90): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_d_mux_1 File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(107): [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/srcbmux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(110): [PCDPC] - Port size (32) does not match connection size (1) for port 'a'. The port definition is at: /home/taylorwong/comp300/projects/p09/alu.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/alu File: /home/taylorwong/comp300/projects/p09/alu.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/taylorwong/comp300/projects/p09/mux2.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# ** Warning: (vsim-3015) /home/taylorwong/comp300/projects/p09/core_datapath.sv(120): [PCDPC] - Port size (32) does not match connection size (1) for port 'd'. The port definition is at: /home/taylorwong/comp300/projects/p09/flip_flops.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/dmem_write_data_reg_x_m File: /home/taylorwong/comp300/projects/p09/flip_flops.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3839) /home/taylorwong/comp300/projects/p09/core_datapath.sv(116): Variable '/testbench/dut/core/dp/dmem_write_data_x2', driven via a port connection, is multiply driven. See /home/taylorwong/comp300/projects/p09/core_datapath.sv(114).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/dp/fwd_lw_mux File: /home/taylorwong/comp300/projects/p09/mux2.sv
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint sim:/testbench/dut/core/c/*
+add wave -position insertpoint sim:/testbench/dut/core/dp/*
+run 100
+run 100
+run 600
+# Simulation succeeded!
+# ** Note: $stop    : /home/taylorwong/comp300/projects/p09/mips_testbench.sv(43)
+#    Time: 230 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at /home/taylorwong/comp300/projects/p09/mips_testbench.sv line 43
+restart -f
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 100
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Error: (vsim-3389) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): Port 'lw_fwd' not found in the connected module (20th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Fatal: (vsim-3365) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): Too many port connections. Expected 21, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# FATAL ERROR while loading design
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# No Design Loaded!
+restart -f
+# No Design Loaded!
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 18:41:54 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dut/core/c/lw_fwd'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/testbench/dut/core/dp/lw_fwd'. 
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+vsim work.testbench
+# End time: 19:08:30 on Dec 07,2018, Elapsed time: 0:26:36
+# Errors: 5, Warnings: 70
+# vsim work.testbench 
+# Start time: 19:08:30 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+add wave sim:/testbench/dut/core/c/*
+restart -f
+run 200
+add wave sim:/testbench/dut/core/dp/*
+run 200
+restart -f
+run 200
+quit -sim
+# End time: 19:11:17 on Dec 07,2018, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 19:11:23 on Dec 07,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+add wave  \
+sim:/testbench/dut/clk \
+sim:/testbench/dut/reset
+add wave  \
+sim:/testbench/dut/core/stall_f \
+sim:/testbench/dut/core/stall_d \
+sim:/testbench/dut/core/flush_x
+add wave  \
+sim:/testbench/dut/core/instr_f
+add wave  \
+sim:/testbench/dut/core/fwd_a_d \
+sim:/testbench/dut/core/fwd_b_d \
+sim:/testbench/dut/core/fwd_a_x \
+sim:/testbench/dut/core/fwd_b_x
+add wave  \
+sim:/testbench/dut/core/dp/dmem_write_data_m
+add wave  \
+sim:/testbench/dut/core/c/dmem_write_m
+add wave  \
+sim:/testbench/dut/core/dp/dmem_read_data_m
+add wave  \
+sim:/testbench/dut/core/pc
+run 200
+add wave  \
+sim:/testbench/dut/core/instr_d
+add wave  \
+sim:/testbench/dut/core/dp/alu_out_x
+restart -f
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file "unit_tests/unit3.dat" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/taylorwong/comp300/projects/p09/imem.sv(17)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/imem
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+restart -f
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# Window ".main_pane.wave.interior.cs.body.pw.wf.grid.message,selector" cannot be transformed into a pixmap (possibly obscured?)
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# 
+# 
+# 
+# 
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+run 200
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv failed with 1 errors.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 1 failed with 1 error.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [TFMPC] - Too few port connections. Expected 24, found 22.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/core/c/hazard File: /home/taylorwong/comp300/projects/p09/hazard_unit.sv
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [TFMPC] - Missing connection for port 'dmem_write_m'.
+# ** Warning: (vsim-3722) /home/taylorwong/comp300/projects/p09/core_controller.sv(36): [TFMPC] - Missing connection for port 'mem_to_reg_w'.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+restart -f
+# Loading work.testbench
+# Loading work.top
+# Loading work.mips_core
+# Loading work.core_controller
+# Loading work.hazard_unit
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.flopr
+# Loading work.core_datapath
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.signext
+# Loading work.eq
+# Loading work.shiftleft2
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# Compile of adder.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of aludec.sv was successful.
+# Compile of core_controller.sv was successful.
+# Compile of core_datapath.sv was successful.
+# Compile of dmem.sv was successful.
+# Compile of eq.sv was successful.
+# Compile of flip_flops.sv was successful.
+# Compile of hazard_unit.sv was successful.
+# Compile of imem.sv was successful.
+# Compile of maindec.sv was successful.
+# Compile of mips_core.sv was successful.
+# Compile of mips_testbench.sv was successful.
+# Compile of mux2.sv was successful.
+# Compile of mux3.sv was successful.
+# Compile of regfile.sv was successful.
+# Compile of shiftleft2.sv was successful.
+# Compile of signext.sv was successful.
+# Compile of system.sv was successful.
+# Compile of zeroext.sv was successful.
+# 20 compiles, 0 failed with no errors.
+# End time: 21:32:39 on Dec 07,2018, Elapsed time: 2:21:16
+# Errors: 5, Warnings: 4
